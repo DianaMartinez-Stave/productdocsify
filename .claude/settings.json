@@ -6,7 +6,31 @@
       "PowerShell(npx -y docsify-cli serve . --port 3000)",
       "PowerShell(\"---BRANCH---\")",
       "PowerShell(\"---STATUS---\")",
-      "PowerShell(git add -A)"
+      "PowerShell(git add -A)",
+      "PowerShell(git push origin main 2>&1)",
+      "PowerShell(gh auth status 2>&1)",
+      "PowerShell(gh api user --jq .login 2>&1)",
+      "PowerShell(\"---\")",
+      "PowerShell(git branch docs/stave-apps-hub fc08ae8)",
+      "PowerShell(\"---LOCAL BRANCHES---\")",
+      "PowerShell(\"---COMMIT ON BRANCH---\")",
+      "PowerShell(git config user.name \"Jos� Cornelio\")",
+      "PowerShell(git config user.email \"jose.cornelio@stavecorp.com\")",
+      "PowerShell(git checkout main 2>&1)",
+      "PowerShell(git commit --amend --reset-author --no-edit 2>&1)",
+      "PowerShell(git branch -f docs/stave-apps-hub main)",
+      "PowerShell(\"---NEW AUTHOR---\")",
+      "PowerShell(\"---BRANCH POINTS AT---\")",
+      "PowerShell(git push -u origin docs/stave-apps-hub 2>&1)",
+      "PowerShell(winget install --id GitHub.cli -e --source winget --accept-source-agreements --accept-package-agreements --disable-interactivity 2>&1)",
+      "PowerShell(git fetch --prune origin 2>&1)",
+      "PowerShell(git reset --hard origin/main 2>&1)",
+      "PowerShell(\"--- main now ---\")",
+      "PowerShell(\"--- remote branches ---\")",
+      "PowerShell(git push origin --delete docs/stave-apps-hub 2>&1)",
+      "PowerShell(git branch -d docs/stave-apps-hub 2>&1)",
+      "PowerShell(\"--- local branches ---\")",
+      "PowerShell(\"--- status ---\")"
     ]
   }
 }
