@@ -6,9 +6,9 @@
 
 > Technical documentation for the Stave Apps product suite.
 
-- ServiceNow data-hygiene tooling, end to end
-- Data Masker · Scrambler · Generator · Dictionary
-- Built for ServiceNow admins and developers
+- Stave Data Tools
+- Stave QR Code Generator
+- Stave Maps
 
 [Get Started](start/)
 [stavecorp.com](https://stavecorp.com)
