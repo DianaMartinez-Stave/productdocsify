@@ -2,6 +2,6 @@
 
 
 - **Products**
-  - [Stave Data Tools](employee/data-tools/)
-  - [Stave QR Code Generator](employee/qr-code/)
-  - [Stave Maps](employee/stave-maps/)
+  - [Stave Data Tools](client/data-tools/)
+  - [Stave QR Code Generator](client/qr-code/)
+  - [Stave Maps](client/stave-maps/)
